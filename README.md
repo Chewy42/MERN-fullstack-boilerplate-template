@@ -34,3 +34,4 @@ first letter of the file being a capitol letter: "Homepage.jsx" or "Navbar.jsx"
 - If you're wondering why we use .jsx instead of .js, .jsx is tailored for working with React
 - All routing will be done through the App.jsx
 * To incorporate a Private or Public route, it should look like this: 
+* <Route path="/dashboard" element={<PrivateRoute element={<Dashboard />} />} />
